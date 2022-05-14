@@ -22,3 +22,42 @@
 .bottom-row-1 {
     flex-basis: 80%;
 }
+
+.logo {
+    width: auto;
+    max-width: 100%;
+    max-height: 80px;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.3vmax;
+    padding-bottom: 3.3vmax;
+    justify-content: center;
+    padding-right: 7vw;
+    padding-left: 7vw;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+h1{
+    color: #18ea19;
+    margin: 2rem 0;
+    text-align: center;
+    white-space: pre-wrap;
+    line-height: 1.17;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.3em;
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+}
