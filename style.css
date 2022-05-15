@@ -343,3 +343,29 @@ h2 {
     font-size: 2rem;
     text-align: center;
 }
+
+/* section 8 */
+
+.sec8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.hline {
+    color: black;
+    width: 100%;
+    height: 15px;
+    line-height: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sec8-img2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
