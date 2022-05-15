@@ -433,3 +433,15 @@ i {
     cursor: pointer;
 }
 
+
+@media only screen and (max-width: 400px) {
+    .sec1-txt, .sec2-txt, .sec3-image, .sec4-img1, .sec4-img2, .social-media-icons, .footer-txt1  {
+        width: 100%;
+    } 
+    .sec3-text
+        {padding: 0;}
+    .sec4-img1, .sec4-img2 {
+        flex-basis: 80%;
+    }
+    .social-media-icons{float: left;}
+  }
