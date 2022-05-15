@@ -229,10 +229,12 @@ h2 {
 
 .sec4-img1 {
     flex-basis: 35%;
+    cursor: pointer;
 }
 
 .sec4-img2 {
     flex-basis: 35%;
+    cursor: pointer;
 }
 
 .sec4-text {
@@ -258,3 +260,48 @@ h2 {
     flex-basis: 47%;
 }
 
+
+/* section 6 */
+.sec6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sec6-text {
+    width: 60%;
+}
+
+.sec6-img1 {
+    width: 90%;
+    padding: 2%;
+}
+
+.sec6-img2 {
+    width: 60%;
+}
+
+.h-sec-6 {
+    white-space: pre-wrap;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem, 2rem;
+    display: block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    padding: 1%;
+    text-align: center;
+}
+
+.p-sec-6 {
+    white-space: pre-wrap;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem, 2rem;
+    display: block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 1%;
+    text-align: center;
+}
